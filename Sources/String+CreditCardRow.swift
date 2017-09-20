@@ -23,10 +23,6 @@ public extension String {
         let end = characters.index(start, offsetBy: r.upperBound - r.lowerBound)
         return self[Range(start ..< end)]
     }
-
-    var length: Int {
-        return characters.count
-    }
 }
 
 //"abcde"[0] == "a"
